@@ -28,7 +28,7 @@ shared by players and NPCs, no uploaded animations.
 - DataStore saving with session locking, retries and migrations
 - Anti-exploit: remote validation, rate limits, server-side checks
 - NPC / AI state machines, procedural animation, game feel (hitstop, shake, VFX, SFX)
-- Clean UI built in code
+- Anything u want
 
 ### Contact
 
