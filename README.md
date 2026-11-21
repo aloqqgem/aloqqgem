@@ -30,4 +30,6 @@ shared by players and NPCs, no uploaded animations.
 - NPC / AI state machines, procedural animation, game feel (hitstop, shake, VFX, SFX)
 - Clean UI built in code
 
-<!-- Contact: add Discord / Roblox profile here -->
+### Contact
+
+Discord: **aloqq69**. Open for commissions and long-term work.
