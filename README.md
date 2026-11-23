@@ -5,18 +5,18 @@ covered by tests, and tuned from one config file. Clean, readable `--!strict` Lu
 
 ### Projects
 
-**[Inventory & Trading System](https://github.com/aloqqgem/inventory-trading-system)**
+**[Inventory & Trading System](https://github.com/aloqqgem/inventory-trading-system)** · [video](https://www.youtube.com/watch?v=bNT88Pgxveg)
 40-slot inventory, chests, player-to-player trading and DataStore saves.
 Dupe-proof trades via a two-phase write that survives a server crash mid-trade, session-locked profiles,
 anti-scam (locked offers, ready delay, change highlighting), request schemas and rate limits.
 148 tests including a fuzz test over the real request path.
 
-**[Fighting System](https://github.com/aloqqgem/fighting-system)**
+**[Fighting System](https://github.com/aloqqgem/fighting-system)** · [video](https://www.youtube.com/watch?v=awbP2Ym7NHE)
 M1 combos, block / parry / guard break, dashes with i-frames, a four-ability kit, ragdolls and training dummies.
 Lag compensation (server rewinds targets to what the attacker saw), client-side prediction matched to server results,
 an anti-cheat that snaps back speed hacks without ever kicking laggy players. 42 tests.
 
-**[Soccer System](https://github.com/aloqqgem/soccer-system)**
+**[Soccer System](https://github.com/aloqqgem/soccer-system)** · [video](https://www.youtube.com/watch?v=vpn1edFxMqY)
 Dribbling, curved and charged shots, slide tackles, volleys and bicycle kicks, a goalkeeper AI and a practice bot.
 Server-owned ball with client-side prediction so shots leave the foot instantly; fully procedural animation
 shared by players and NPCs, no uploaded animations.
