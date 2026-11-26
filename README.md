@@ -1,33 +1,30 @@
 ## Roblox Scripter · Luau
 
-I build gameplay systems that hold up in a live game: server-authoritative, validated against exploits,
-covered by tests, and tuned from one config file. Clean, readable `--!strict` Luau with comments that explain *why*.
+I make Roblox games and gameplay systems: combat, physics, ragdolls, progression, saves and UI.
+Server-authoritative code, checked against exploits, with every number in one config.
 
-### Projects
+### Ragdoll Madness
 
-**[Inventory & Trading System](https://github.com/aloqqgem/inventory-trading-system)** · [video](https://www.youtube.com/watch?v=bNT88Pgxveg)
-40-slot inventory, chests, player-to-player trading and DataStore saves.
-Dupe-proof trades via a two-phase write that survives a server crash mid-trade, session-locked profiles,
-anti-scam (locked offers, ready delay, change highlighting), request schemas and rate limits.
-148 tests including a fuzz test over the real request path.
+[![Ragdoll Madness gameplay](https://img.youtube.com/vi/GOohgWNqq7M/hqdefault.jpg)](https://youtu.be/GOohgWNqq7M)
 
-**[Fighting System](https://github.com/aloqqgem/fighting-system)** · [video](https://www.youtube.com/watch?v=awbP2Ym7NHE)
-M1 combos, block / parry / guard break, dashes with i-frames, a four-ability kit, ragdolls and training dummies.
-Lag compensation (server rewinds targets to what the attacker saw), client-side prediction matched to server results,
-an anti-cheat that snaps back speed hacks without ever kicking laggy players. 42 tests.
+*Click to watch the gameplay video.*
 
-**[Soccer System](https://github.com/aloqqgem/soccer-system)** · [video](https://www.youtube.com/watch?v=vpn1edFxMqY)
-Dribbling, curved and charged shots, slide tackles, volleys and bicycle kicks, a goalkeeper AI and a practice bot.
-Server-owned ball with client-side prediction so shots leave the foot instantly; fully procedural animation
-shared by players and NPCs, no uploaded animations.
+A ragdoll sandbox: grab a weapon and go wild on ragdoll dummies, or throw them into the arena's machines.
+
+- **Ragdoll physics.** Dummies sway and stagger from hits, lose balance after several shots, buckle at the knees or fly off from heavy hits, and limbs can be cut off.
+- **Weapons.** Melee with light and heavy attacks, guns, throwables, all in one shared weapon system. 18 custom low-poly models.
+- **First-person view.** Arms, aiming, recoil, reload and swing animations.
+- **Arena machines.** Presses, saws and other traps, with custom models made in Blender.
+- **Progression.** Weapons unlock by kills, a 9-slot inventory, everything saved between sessions.
+- **PC and mobile.** On-screen buttons, swipe to look, scaled UI, plus settings and music.
 
 ### What I can do for you
 
-- Combat, abilities, hitboxes, lag compensation
-- Inventories, trading, shops, economies that can't be duped
-- DataStore saving with session locking, retries and migrations
-- Anti-exploit: remote validation, rate limits, server-side checks
-- NPC / AI state machines, procedural animation, game feel (hitstop, shake, VFX, SFX)
+- Combat, weapons, hitboxes, ragdolls and physics
+- Inventories, shops and progression
+- Saving with DataStores that doesn't lose data
+- Anti-exploit: remote checks, rate limits, server-side validation
+- NPC AI, animation and game feel (hitstop, shake, VFX, SFX)
 - Anything u want
 
 ### Contact
