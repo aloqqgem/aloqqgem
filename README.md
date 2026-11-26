@@ -7,7 +7,7 @@ Server-authoritative code, checked against exploits, with every number in one co
 
 [![Ragdoll Madness gameplay](https://img.youtube.com/vi/GOohgWNqq7M/hqdefault.jpg)](https://youtu.be/GOohgWNqq7M)
 
-*Click to watch the gameplay video.*
+*Click to watch the gameplay video.* · **[Play on Roblox](https://www.roblox.com/games/129398485856519/Ragdoll-Madness)**
 
 A ragdoll sandbox: grab a weapon and go wild on ragdoll dummies, or throw them into the arena's machines.
 
